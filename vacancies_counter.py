@@ -164,7 +164,7 @@ def get_page(i, category):
 
 if __name__ == '__main__':
     regions = {
-        'omsk': '55', 'orel': '57', 'rysan': '62', 'smolensk': '67', 'tambov': '68'
+        'orel': '57', 'rysan': '62', 'smolensk': '67', 'tambov': '68'
     }
     for name, id in regions.items():
         region_number = id#input('Type the number of region from SBIS: ')
